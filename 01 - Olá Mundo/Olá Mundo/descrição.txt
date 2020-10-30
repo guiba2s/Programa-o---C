@@ -1,0 +1,5 @@
+
+Primeiro Programa - Olá mundo
+
+printf() -> função possui a seguinte sintaxe printf("formato", parametro);
+    ex: printf(olá Mundo);

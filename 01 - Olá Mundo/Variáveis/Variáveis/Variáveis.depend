@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604084854 source:c:\users\guilherme lopes\documents\engenharia\programação em c\01 - olá mundo\variáveis\variáveis\main.c
+	<stdio.h>
+	<stdlib.h>
+
