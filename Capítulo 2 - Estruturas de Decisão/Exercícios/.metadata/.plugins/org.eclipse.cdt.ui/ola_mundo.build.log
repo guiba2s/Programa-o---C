@@ -1,0 +1,7 @@
+15:18:38 **** Incremental Build of configuration Debug for project ola_mundo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ola_mundo.o" "..\\src\\ola_mundo.c" 
+gcc -o ola_mundo.exe "src\\ola_mundo.o" 
+
+15:18:39 Build Finished. 0 errors, 0 warnings. (took 685ms)
+

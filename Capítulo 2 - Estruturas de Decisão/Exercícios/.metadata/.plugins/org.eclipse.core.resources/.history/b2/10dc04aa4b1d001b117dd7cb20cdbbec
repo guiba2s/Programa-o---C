@@ -1,0 +1,57 @@
+/*
+ ============================================================================
+ Name        : Atividade 23
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :
+				 Crie um programa que informe a quantidade total de calorias de uma refeição a
+				partir da escolha do usuário que deverá informar o prato, a sobremesa, e bebida
+				conforme a tabela a seguir.
+
+					Prato 					Sobremesa 				Bebida
+				Vegetariano 180cal 		Abacaxi 75cal 			Chá 20cal
+				Peixe 230cal 			Sorvete diet 110cal 	Suco de laranja 70cal
+				Frango 250cal 			Mousse diet 170cal 		Suco de melão 100cal
+				Carne 350cal 			Mousse chocolate 		200cal Refrigerante diet 65cal
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int percurso, tipoCarro;
+	float consumoCombustivel;
+
+	setbuf(stdout, NULL);
+
+	printf("Informe o percusso desejado: ");
+	scanf("%d", &percurso);
+	printf("Digite o tipo de carro \nTipo A - Digite 1 \nTipo B - Digite 2 \nTipo C - Digite 3 \n");
+	scanf("%d", &tipoCarro);
+
+
+	switch(tipoCarro)
+	{
+		case 1://Carro tipo A - 12km/L
+			consumoCombustivel = percurso/12;
+			printf("Consumo estimado: %.2f Litros", consumoCombustivel);
+			break;
+
+		case 2://Carro tipo B - 9Km/L
+			consumoCombustivel = percurso/9;
+			printf("Consumo estimado: %.2f Litros", consumoCombustivel);
+			break;
+
+		case 3://Carro tipo C - 8Km/L
+			consumoCombustivel = percurso/8;
+			printf("Consumo estimado: %.2f Litros", consumoCombustivel);
+			break;
+
+		default:
+			printf("Digite um tipo válido");
+			break;
+	}
+}

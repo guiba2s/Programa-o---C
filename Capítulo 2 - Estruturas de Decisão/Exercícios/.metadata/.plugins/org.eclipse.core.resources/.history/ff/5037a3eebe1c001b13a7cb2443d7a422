@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : Atividade 13
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :	Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota da
+				prova 2 de um aluno. O programa deve imprimir o nome, a nota da prova 1, a nota
+				da prova 2, a média das notas e uma das mensagens: "Aprovado", "Reprovado"ou
+				"em Prova Final"(a média é 7 para aprovação, menor que 3 para reprovação e as
+				demais em prova final).
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//Apartir desse exercicio irei utilizar #defines para trabalhar com constantes
+#define APROVADO "aprovado"
+#define REPROVADO "reprovado"
+
+int main(void) {
+	char nome[30];
+	float nota1, nota2, media;
+
+	setbuf(stdout, NULL);
+
+	printf("%s", APROVADO);
+	printf("Informe seu nome: ");
+	scanf("%s", &nome);
+	printf("Valor do resultado da primeira prova: ");
+	scanf("%f", &nota1);
+	printf("Valor do resultado da segunda nota: ");
+	scanf("%f", &nota2);
+
+
+}

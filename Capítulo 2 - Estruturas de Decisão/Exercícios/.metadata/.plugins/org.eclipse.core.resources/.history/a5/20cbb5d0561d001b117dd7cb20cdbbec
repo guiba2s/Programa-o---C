@@ -1,0 +1,109 @@
+/*
+ ============================================================================
+ Name        : Atividade 23
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :
+				 Crie um programa que informe a quantidade total de calorias de uma refeição a
+				partir da escolha do usuário que deverá informar o prato, a sobremesa, e bebida
+				conforme a tabela a seguir.
+
+					Prato 					Sobremesa 				Bebida
+			1 -	Vegetariano 180cal 	1 -	Abacaxi 75cal 			1 - Chá 20cal
+			2 -	Peixe 230cal 		2 -	Sorvete diet 110cal 	2 -	Suco de laranja 70cal
+			3 -	Frango 250cal 		3 -	Mousse diet 170cal 	    3 -	Suco de melão 100cal
+			4 -	Carne 350cal 		4 -	Mousse chocolate 200cal	4 -	Refrigerante diet 65cal
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int prato, sobremesa, bebida, calorias;
+
+	setbuf(stdout, NULL);
+	printf("Insira um Prato:");
+	scanf("%d", &prato);
+	printf("Insira uma Sobremesa:");
+	scanf("%d", &sobremesa);
+	printf("Insira uma bebida:");
+	scanf("%d", &bebida);
+
+	switch(prato)//verificar prato
+	{
+		case 1:
+			calorias = 180;//vegetariano - 180cal
+			break;
+
+		case 2:
+			calorias = 230;//peixe - 230cal
+			break;
+
+		case 3:
+			calorias = 250;//Frango - 250cal
+			break;
+
+		case 4:
+			calorias = 350;//Carne - 350cal
+			break;
+
+		default:
+			printf("número inválido");
+			return EXIT_SUCCESS;
+			break;
+	}
+
+	switch(sobremesa)//verificar sobremesa
+	{
+		case 1:
+			calorias += 75;//Prato mais sobremesa de abacaxi 75 calorias
+			break;
+
+		case 2:
+			calorias += 110; //+ sobremesa de sorvete diet 110cal
+			break;
+
+		case 3:
+			calorias += 170;//+ sobremesa de mousse diet 170 calorias
+			break;
+
+		case 4:
+			calorias += 200;//+ sobremessa de mousse de chocolte 200cal
+			break;
+
+		default:
+			printf("número inválido");
+			return EXIT_SUCCESS;
+				break;
+		}
+
+	switch(bebida)//verificar bebida
+	{
+		case 1:
+			calorias += 20;//Soma do Prato+sobremesa + a bebida escolhida
+			break;
+
+		case 2:
+			calorias += 70;
+			break;
+
+		case 3:
+			calorias += 100;
+			break;
+
+		case 4:
+			calorias += 65;
+			break;
+
+		default:
+			printf("número inválido");
+			return EXIT_SUCCESS;
+			break;
+		}
+
+	printf("A combinação de %d, %d e %d possui o total de %d calorias.", prato, sobremesa, bebida, calorias);
+
+}

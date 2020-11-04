@@ -1,0 +1,9 @@
+13:39:38 **** Incremental Build of configuration Debug for project teste ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.20\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\Scripts\;C:\Program Files (x86)\;C:\Users\Guilherme Lopes\AppData\Local\GitHubDesktop\bin;C:\Users\Guilherme Lopes\AppData\Local\atom\bin;C:\Microsoft Visual Studio Code\Microsoft VS Code\bin;C:\Program Files (x86)\PyCharm Community Edition 2020.2.3\bin;;C:\Users\Guilherme Lopes\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;;C:\Program Files\eclipse]
+
+13:39:38 Build Failed. 1 errors, 0 warnings. (took 145ms)
+

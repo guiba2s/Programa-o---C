@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : Atividade 24
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :
+				 Crie um programa que informe a quantidade total de calorias de uma refeição a
+				partir da escolha do usuário que deverá informar o prato, a sobremesa, e bebida
+				conforme a tabela a seguir.
+
+					Prato 					Sobremesa 				Bebida
+			1 -	Vegetariano 180cal 	1 -	Abacaxi 75cal 			1 - Chá 20cal
+			2 -	Peixe 230cal 		2 -	Sorvete diet 110cal 	2 -	Suco de laranja 70cal
+			3 -	Frango 250cal 		3 -	Mousse diet 170cal 	    3 -	Suco de melão 100cal
+			4 -	Carne 350cal 		4 -	Mousse chocolate 200cal	4 -	Refrigerante diet 65cal
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int placa, milhar, centena, dezena;
+
+	setbuf(stdout, NULL);
+
+	printf("Digite o numero da placa do carro no formato <9999>: ");
+	scanf("%d", &placa);
+	milhar = placa / 1000;
+	placa = placa - (milhar * 1000);
+	centena = placa / 100;
+	placa = placa - (centena * 100);
+	dezena = placa / 10;
+	placa = placa - (dezena * 10);
+	printf("Mes: %d", placa);
+}

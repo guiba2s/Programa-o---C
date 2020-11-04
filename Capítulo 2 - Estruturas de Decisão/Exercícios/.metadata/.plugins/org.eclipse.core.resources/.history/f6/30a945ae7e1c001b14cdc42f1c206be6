@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : EX1-CAP2.c
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :	3 - Faça um programa que leia um número e imprima uma das duas mensagens: "É
+					múltiplo de 3"ou "Não é múltiplo de 3"
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int numero;
+
+	setbuf(stdout, NULL);
+
+	printf("Digite um número inteiro: "); /* prints;  */
+	scanf("%d", &numero);
+
+	if((numero % 3) == 0) printf("o número é multiplo de 3");
+	else printf("o número não é multiplo de 3");
+
+	return EXIT_SUCCESS;
+}

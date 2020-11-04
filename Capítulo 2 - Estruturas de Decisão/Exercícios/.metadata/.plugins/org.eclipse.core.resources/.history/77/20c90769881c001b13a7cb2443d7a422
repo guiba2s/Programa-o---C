@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : Atividade 5
+ Author      : Guilherme
+ Version     :
+ Copyright   : 
+ Description :	Faça um programa em C que leia um número e informe se ele é divisível por 3 e
+				por 7.
+
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int numero;
+	setbuf(stdout, NULL);
+
+	printf("Digite um número inteiro: "); /* prints;  */
+	scanf("%d", &numero);
+
+	if((numero%7)==0 && (numero%3)==0) printf("Divisivel por 3 e por 7");
+	else printf("não é divisivel por 3 e por 7");
+
+	return EXIT_SUCCESS;
+}

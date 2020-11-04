@@ -1,0 +1,554 @@
+Info: Nothing to build for EX-22
+17:27:28 **** Incremental Build of configuration Debug for project EX-22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_22.o" "..\\src\\exercício_22.c" 
+..\src\exercício_22.c: In function 'main':
+..\src\exercício_22.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-22.exe "src\\exercício_22.o" 
+17:28:09 **** Incremental Build of configuration Debug for project EX-22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_22.o" "..\\src\\exercício_22.c" 
+..\src\exercício_22.c: In function 'main':
+..\src\exercício_22.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-22.exe "src\\exercício_22.o" 
+Info: Nothing to build for EX-22
+Info: Nothing to build for EX-01
+17:30:46 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+17:30:47 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+17:30:47 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+17:30:48 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+17:30:48 **** Rebuild of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+Info: Nothing to build for EX-01
+18:52:42 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+18:52:44 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+18:52:45 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+18:52:46 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+18:52:46 **** Incremental Build of configuration Debug for project EX-21 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_21.o" "..\\src\\exercício_21.c" 
+..\src\exercício_21.c: In function 'main':
+..\src\exercício_21.c:28:2: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[30]' [-Wformat=]
+  scanf("%s",&nome);
+  ^
+..\src\exercício_21.c:64:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-21.exe "src\\exercício_21.o" 
+18:52:47 **** Incremental Build of configuration Debug for project EX-22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_22.o" "..\\src\\exercício_22.c" 
+..\src\exercício_22.c: In function 'main':
+..\src\exercício_22.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-22.exe "src\\exercício_22.o" 
+18:52:48 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+18:53:05 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:106:110: error: expected statement before ')' token
+  printf("A combinaÃ§Ã£o de %d, %d e %d possui o total de %d calorias.", prato, sobremesa, bebida, calorias); )
+                                                                                                              ^
+..\src\exercício_23.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+18:53:52 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+18:54:57 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+Info: Nothing to build for EX-23
+Info: Nothing to build for EX-23
+Info: Nothing to build for EX-23
+18:55:57 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+19:00:27 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:40:14: error: assignment to expression with array type
+    nomePrato = "Vegetariano";
+              ^
+..\src\exercício_23.c:45:16: error: 'Peixe' undeclared (first use in this function)
+    nomePrato = Peixe;
+                ^
+..\src\exercício_23.c:45:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_23.c:50:16: error: 'Frango' undeclared (first use in this function)
+    nomePrato = Frango;
+                ^
+..\src\exercício_23.c:55:16: error: 'Carne' undeclared (first use in this function)
+    nomePrato = Carne;
+                ^
+..\src\exercício_23.c:68:18: error: assignment to expression with array type
+    nomeSobremesa = "abacaxi";
+                  ^
+..\src\exercício_23.c:73:18: error: assignment to expression with array type
+    nomeSobremesa = "Sorvete";
+                  ^
+..\src\exercício_23.c:78:18: error: assignment to expression with array type
+    nomeSobremesa = "Mousse";
+                  ^
+..\src\exercício_23.c:83:18: error: assignment to expression with array type
+    nomeSobremesa = "Chocolate";
+                  ^
+..\src\exercício_23.c:96:15: error: assignment to expression with array type
+    nomeBebida = "ChÃ¡";
+               ^
+..\src\exercício_23.c:101:15: error: assignment to expression with array type
+    nomeBebida = "Suco de Laranja";
+               ^
+..\src\exercício_23.c:106:15: error: assignment to expression with array type
+    nomeBebida = "Suco MelÃ£o";
+               ^
+..\src\exercício_23.c:111:15: error: assignment to expression with array type
+    nomeBebida = "Refrigerante";
+               ^
+..\src\exercício_23.c:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for EX-01
+19:01:30 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+19:01:31 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+19:01:31 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+19:01:32 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+19:01:32 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:40:14: error: assignment to expression with array type
+    nomePrato = "Vegetariano";
+              ^
+..\src\exercício_23.c:45:16: error: 'Peixe' undeclared (first use in this function)
+    nomePrato = Peixe;
+                ^
+..\src\exercício_23.c:45:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_23.c:50:16: error: 'Frango' undeclared (first use in this function)
+    nomePrato = Frango;
+                ^
+..\src\exercício_23.c:55:16: error: 'Carne' undeclared (first use in this function)
+    nomePrato = Carne;
+                ^
+..\src\exercício_23.c:68:18: error: assignment to expression with array type
+    nomeSobremesa = "abacaxi";
+                  ^
+..\src\exercício_23.c:73:18: error: assignment to expression with array type
+    nomeSobremesa = "Sorvete";
+                  ^
+..\src\exercício_23.c:78:18: error: assignment to expression with array type
+    nomeSobremesa = "Mousse";
+                  ^
+..\src\exercício_23.c:83:18: error: assignment to expression with array type
+    nomeSobremesa = "Chocolate";
+                  ^
+..\src\exercício_23.c:96:15: error: assignment to expression with array type
+    nomeBebida = "ChÃ¡";
+               ^
+..\src\exercício_23.c:101:15: error: assignment to expression with array type
+    nomeBebida = "Suco de Laranja";
+               ^
+..\src\exercício_23.c:106:15: error: assignment to expression with array type
+    nomeBebida = "Suco MelÃ£o";
+               ^
+..\src\exercício_23.c:111:15: error: assignment to expression with array type
+    nomeBebida = "Refrigerante";
+               ^
+..\src\exercício_23.c:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for EX-01
+19:02:32 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+19:02:33 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+19:02:34 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+19:02:34 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+19:02:35 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:40:14: error: assignment to expression with array type
+    nomePrato = "Vegetariano";
+              ^
+..\src\exercício_23.c:45:16: error: 'Peixe' undeclared (first use in this function)
+    nomePrato = Peixe;
+                ^
+..\src\exercício_23.c:45:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_23.c:50:16: error: 'Frango' undeclared (first use in this function)
+    nomePrato = Frango;
+                ^
+..\src\exercício_23.c:55:16: error: 'Carne' undeclared (first use in this function)
+    nomePrato = Carne;
+                ^
+..\src\exercício_23.c:68:18: error: assignment to expression with array type
+    nomeSobremesa = "abacaxi";
+                  ^
+..\src\exercício_23.c:73:18: error: assignment to expression with array type
+    nomeSobremesa = "Sorvete";
+                  ^
+..\src\exercício_23.c:78:18: error: assignment to expression with array type
+    nomeSobremesa = "Mousse";
+                  ^
+..\src\exercício_23.c:83:18: error: assignment to expression with array type
+    nomeSobremesa = "Chocolate";
+                  ^
+..\src\exercício_23.c:96:15: error: assignment to expression with array type
+    nomeBebida = "ChÃ¡";
+               ^
+..\src\exercício_23.c:101:15: error: assignment to expression with array type
+    nomeBebida = "Suco de Laranja";
+               ^
+..\src\exercício_23.c:106:15: error: assignment to expression with array type
+    nomeBebida = "Suco MelÃ£o";
+               ^
+..\src\exercício_23.c:111:15: error: assignment to expression with array type
+    nomeBebida = "Refrigerante";
+               ^
+..\src\exercício_23.c:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:02:37 **** Incremental Build of configuration Debug for project EX-23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_23.o" "..\\src\\exercício_23.c" 
+..\src\exercício_23.c: In function 'main':
+..\src\exercício_23.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-23.exe "src\\exercício_23.o" 
+Info: Nothing to build for EX-01
+19:06:24 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+19:06:25 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+19:06:26 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+19:06:26 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+Info: Nothing to build for EX-23
+19:06:27 **** Rebuild of configuration Debug for project EX-24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_24.o" "..\\src\\exercício_24.c" 
+..\src\exercício_24.c: In function 'main':
+..\src\exercício_24.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-24.exe "src\\exercício_24.o" 
+19:06:53 **** Incremental Build of configuration Debug for project EX-24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_24.o" "..\\src\\exercício_24.c" 
+..\src\exercício_24.c: In function 'main':
+..\src\exercício_24.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-24.exe "src\\exercício_24.o" 
+Info: Nothing to build for EX-01
+19:13:31 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+19:13:32 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+19:13:32 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+19:13:33 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+Info: Nothing to build for EX-23
+Info: Nothing to build for EX-24
+Info: Nothing to build for EX-25
+Info: Nothing to build for EX-24
+Info: Nothing to build for EX-01
+19:14:02 **** Incremental Build of configuration Debug for project EX-02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_2.o" "..\\src\\exercício_2.c" 
+gcc -o EX-03.exe "src\\exercício_2.o" 
+19:14:02 **** Incremental Build of configuration Debug for project EX-03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_3.o" "..\\src\\exercício_3.c" 
+gcc -o EX-02.exe "src\\exercício_3.o" 
+Info: Nothing to build for EX-04
+Info: Nothing to build for EX-05
+Info: Nothing to build for EX-06
+19:14:03 **** Incremental Build of configuration Debug for project EX-07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_7.o" "..\\src\\exercício_7.c" 
+..\src\exercício_7.c: In function 'main':
+..\src\exercício_7.c:28:15: error: 'parcelas' undeclared (first use in this function)
+  scanf("%d", &parcelas);
+               ^
+..\src\exercício_7.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercício_7.c:17:6: warning: unused variable 'numero' [-Wunused-variable]
+  int numero;
+      ^
+Info: Nothing to build for EX-08
+Info: Nothing to build for EX-09
+Info: Nothing to build for EX-10
+Info: Nothing to build for EX-11
+Info: Nothing to build for EX-12
+Info: Nothing to build for EX-13
+Info: Nothing to build for EX-14
+Info: Nothing to build for EX-15
+Info: Nothing to build for EX-16
+Info: Nothing to build for EX-17
+19:14:04 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX-19
+Info: Nothing to build for EX-20
+Info: Nothing to build for EX-21
+Info: Nothing to build for EX-22
+Info: Nothing to build for EX-23
+Info: Nothing to build for EX-24
+19:14:04 **** Incremental Build of configuration Debug for project EX-25 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercício_25.o" "..\\src\\exercício_25.c" 
+..\src\exercício_25.c: In function 'main':
+..\src\exercício_25.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX-25.exe "src\\exercício_25.o" 
+Info: Nothing to build for EX-25

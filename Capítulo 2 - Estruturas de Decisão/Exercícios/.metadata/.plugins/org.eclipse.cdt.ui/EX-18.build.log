@@ -1,0 +1,8 @@
+19:14:04 **** Incremental Build of configuration Debug for project EX-18 ****
+Info: Internal Builder is used for build
+gcc -o EX-18.exe "src\\exercício_18.o" 
+C:/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: cannot open output file EX-18.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+19:14:04 Build Failed. 1 errors, 0 warnings. (took 262ms)
+
